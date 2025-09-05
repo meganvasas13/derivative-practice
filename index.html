@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derivative Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mathjax-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+    <h1>Derivative Practice Web App</h1>
+    <div id="app">
+        <ol>
+            <li>
+                Find $\frac{d}{dx}\left(x^4 - 3x^2 + 2x - 7\right)$
+                <div class="answer">Answer: $4x^3 - 6x + 2$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(\frac{2x^2 + 1}{x - 3}\right)$ at $x = 4$
+                <div class="answer">Answer: $\frac{4 \cdot 4 (4-3) - (2\cdot 4^2+1)}{(4-3)^2} = \frac{16(1) - (32+1)}{1^2} = \frac{16-33}{1} = -17$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(\sin(x) + \cos(x)\right)$
+                <div class="answer">Answer: $\cos(x) - \sin(x)$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(\tan^{-1}(2x)\right)$ at $x = 1$
+                <div class="answer">Answer: $\frac{2}{1 + 4x^2}$ at $x=1$ is $\frac{2}{1+4} = \frac{2}{5}$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(e^{x^2}\right)$
+                <div class="answer">Answer: $2x e^{x^2}$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(\ln(\sin(x))\right)$ at $x = \frac{\pi}{2}$
+                <div class="answer">Answer: $\frac{\cos(x)}{\sin(x)}$ at $x=\frac{\pi}{2}$ is $\frac{0}{1} = 0$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(x^2 \sin(x)\right)$
+                <div class="answer">Answer: $2x\sin(x) + x^2\cos(x)$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(\frac{1}{x^2 + 1}\right)$ at $x = 2$
+                <div class="answer">Answer: $-\frac{2x}{(x^2+1)^2}$ at $x=2$ is $-\frac{4}{25}$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(\sec(x)\right)$
+                <div class="answer">Answer: $\sec(x)\tan(x)$</div>
+            </li>
+            <li>
+                Find $\frac{d}{dx}\left(\sin(x^2)\right)$ at $x = 1$
+                <div class="answer">Answer: $2x\cos(x^2)$ at $x=1$ is $2\cos(1)$</div>
+            </li>
+        </ol>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
